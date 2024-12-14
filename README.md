@@ -8,6 +8,8 @@ This repository showcases two approaches for working with audio signals on FPGA 
 
 - **`hardware_only_audio/`**: Provides a Vivado hardware design template without any associated Vitis workspace. This directory serves as a starting point for implementing audio processing directly in hardware. It’s well-suited for experimenting with fixed frequency arrays and other DSP elements purely within the FPGA fabric, without relying on software.
 
+- **`audioTest.ipynb/`**: Generates a list of the max frequencies per interval using the Fast Fourier Transform (FFT). Add a .wav file to your project directory and then run this python script (its in a jupyter notebook format to make it easier to use).
+
 ## Directory Structure
 
 **`audio_top/`**  
