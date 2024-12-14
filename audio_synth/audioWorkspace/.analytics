@@ -1,0 +1,96 @@
+timestamp=[2024-11-28 16:23:03], mode=WORKBENCH_START, duration=0:00:11.212, duration_ms=11212, data={}
+timestamp=[2024-11-28 16:23:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.875, duration_ms=875, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-28 16:23:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.039, duration_ms=2039, data={}
+timestamp=[2024-11-28 16:26:17], mode=APP_CREATION, duration=0:00:08.213, duration_ms=8213, data={name=audioSynth, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=audioTop, application_type=application}
+timestamp=[2024-11-28 16:27:05], mode=PLATFORM_GENERATION, duration=0:00:05.336, duration_ms=5336, data={name=audioTop}
+timestamp=[2024-11-28 16:27:24], mode=PLATFORM_GENERATION, duration=0:00:18.779, duration_ms=18779, data={name=audioTop}
+timestamp=[2024-11-28 16:27:29], mode=BUILD, duration=0:00:04.825, duration_ms=4825, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:27:30], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:35:13], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=audioSynth, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:35:13], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=audioSynth_system, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:35:18], mode=PLATFORM_GENERATION, duration=0:00:05.248, duration_ms=5248, data={name=audioTop}
+timestamp=[2024-11-28 16:35:34], mode=PLATFORM_GENERATION, duration=0:00:15.268, duration_ms=15268, data={name=audioTop}
+timestamp=[2024-11-28 16:35:37], mode=BUILD, duration=0:00:02.960, duration_ms=2960, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:35:38], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:39:14], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=audioSynth, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:39:14], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=audioSynth_system, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:39:20], mode=PLATFORM_GENERATION, duration=0:00:05.148, duration_ms=5148, data={name=audioTop}
+timestamp=[2024-11-28 16:39:36], mode=PLATFORM_GENERATION, duration=0:00:16.080, duration_ms=16080, data={name=audioTop}
+timestamp=[2024-11-28 16:39:38], mode=BUILD, duration=0:00:02.450, duration_ms=2450, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:39:40], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:40:04], mode=BUILD, duration=0:00:00.562, duration_ms=562, data={name=audioSynth, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:40:04], mode=BUILD, duration=0:00:00.573, duration_ms=573, data={name=audioSynth_system, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:40:11], mode=PLATFORM_GENERATION, duration=0:00:07.010, duration_ms=7010, data={name=audioTop}
+timestamp=[2024-11-28 16:40:30], mode=PLATFORM_GENERATION, duration=0:00:18.517, duration_ms=18517, data={name=audioTop}
+timestamp=[2024-11-28 16:40:35], mode=BUILD, duration=0:00:04.168, duration_ms=4168, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:40:36], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:40:54], mode=BUILD, duration=0:00:00.565, duration_ms=565, data={name=audioSynth, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:40:55], mode=BUILD, duration=0:00:00.685, duration_ms=685, data={name=audioSynth_system, configuration=Debug, clean_build=true}
+timestamp=[2024-11-28 16:41:03], mode=PLATFORM_GENERATION, duration=0:00:07.998, duration_ms=7998, data={name=audioTop}
+timestamp=[2024-11-28 16:41:22], mode=PLATFORM_GENERATION, duration=0:00:19.161, duration_ms=19161, data={name=audioTop}
+timestamp=[2024-11-28 16:41:25], mode=BUILD, duration=0:00:02.822, duration_ms=2822, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:41:26], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:43:48], mode=BUILD, duration=0:00:01.424, duration_ms=1424, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:45:34], mode=BUILD, duration=0:00:01.274, duration_ms=1274, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:46:26], mode=BUILD, duration=0:00:01.204, duration_ms=1204, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:48:09], mode=BUILD, duration=0:00:01.275, duration_ms=1275, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:49:19], mode=BUILD, duration=0:00:01.190, duration_ms=1190, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 16:51:35], mode=BUILD, duration=0:00:01.346, duration_ms=1346, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:32:11], mode=BUILD, duration=0:00:01.856, duration_ms=1856, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:32:48], mode=BUILD, duration=0:00:01.608, duration_ms=1608, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:33:10], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:36:43], mode=BUILD, duration=0:00:01.708, duration_ms=1708, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:38:00], mode=BUILD, duration=0:00:01.866, duration_ms=1866, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:38:40], mode=BUILD, duration=0:00:01.631, duration_ms=1631, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 19:39:05], mode=BUILD, duration=0:00:02.092, duration_ms=2092, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 15:31:53], mode=BUILD, duration=0:00:02.652, duration_ms=2652, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 15:39:26], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=audioSynth, configuration=Debug, clean_build=true}
+timestamp=[2024-11-29 15:39:26], mode=BUILD, duration=0:00:00.471, duration_ms=471, data={name=audioSynth_system, configuration=Debug, clean_build=true}
+timestamp=[2024-11-29 15:39:37], mode=PLATFORM_GENERATION, duration=0:00:10.228, duration_ms=10228, data={name=audioTop}
+timestamp=[2024-11-29 15:40:03], mode=PLATFORM_GENERATION, duration=0:00:26.052, duration_ms=26052, data={name=audioTop}
+timestamp=[2024-11-29 15:40:05], mode=BUILD, duration=0:00:01.280, duration_ms=1280, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 15:40:25], mode=BUILD, duration=0:00:04.788, duration_ms=4788, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 15:40:48], mode=BUILD, duration=0:00:03.945, duration_ms=3945, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:08:47], mode=BUILD, duration=0:00:02.254, duration_ms=2254, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:09:42], mode=BUILD, duration=0:00:02.407, duration_ms=2407, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:09:55], mode=BUILD, duration=0:00:02.000, duration_ms=2000, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:11:32], mode=BUILD, duration=0:00:02.087, duration_ms=2087, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:11:58], mode=BUILD, duration=0:00:02.861, duration_ms=2861, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:12:26], mode=BUILD, duration=0:00:02.441, duration_ms=2441, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-11-29 16:13:33], mode=BUILD, duration=0:00:02.424, duration_ms=2424, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:24:09], mode=WORKBENCH_START, duration=0:00:12.764, duration_ms=12764, data={}
+timestamp=[2024-12-07 21:24:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.118, duration_ms=1118, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,audioSynth,audioSynth_system,audioTop}
+timestamp=[2024-12-07 21:24:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.517, duration_ms=1517, data={}
+timestamp=[2024-12-07 21:25:49], mode=BUILD, duration=0:00:02.930, duration_ms=2930, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:26:28], mode=BUILD, duration=0:00:00.487, duration_ms=487, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:27:05], mode=BUILD, duration=0:00:00.471, duration_ms=471, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:28:31], mode=BUILD, duration=0:00:04.492, duration_ms=4492, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:28:32], mode=BUILD, duration=0:00:00.453, duration_ms=453, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:29:14], mode=BUILD, duration=0:00:01.168, duration_ms=1168, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:29:15], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:29:22], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:29:22], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=audioSynth_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 21:31:41], mode=WORKBENCH_START, duration=0:00:16.811, duration_ms=16811, data={}
+timestamp=[2024-12-07 21:31:43], mode=WORKBENCH_UI_INIT, duration=0:00:02.381, duration_ms=2381, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,audioSynth,audioSynth_system,audioTop}
+timestamp=[2024-12-07 21:31:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.791, duration_ms=2791, data={}
+timestamp=[2024-12-09 13:15:39], mode=WORKBENCH_START, duration=0:00:07.935, duration_ms=7935, data={}
+timestamp=[2024-12-09 13:15:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.811, duration_ms=811, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,audioSynth,audioSynth_system,audioTop}
+timestamp=[2024-12-09 13:15:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.339, duration_ms=1339, data={}
+timestamp=[2024-12-09 14:44:33], mode=PLATFORM_GENERATION, duration=0:00:16.829, duration_ms=16829, data={name=audioTop}
+timestamp=[2024-12-09 14:44:34], mode=BUILD, duration=0:00:00.679, duration_ms=679, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:44:57], mode=BUILD, duration=0:00:00.529, duration_ms=529, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:45:16], mode=BUILD, duration=0:00:01.424, duration_ms=1424, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:45:41], mode=BUILD, duration=0:00:01.411, duration_ms=1411, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:45:55], mode=BUILD, duration=0:00:01.229, duration_ms=1229, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:46:14], mode=BUILD, duration=0:00:01.465, duration_ms=1465, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:46:34], mode=BUILD, duration=0:00:01.193, duration_ms=1193, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:46:55], mode=BUILD, duration=0:00:01.222, duration_ms=1222, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:47:06], mode=BUILD, duration=0:00:01.420, duration_ms=1420, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:47:40], mode=BUILD, duration=0:00:00.587, duration_ms=587, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:48:10], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:48:21], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:48:27], mode=BUILD, duration=0:00:00.633, duration_ms=633, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:50:04], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:50:12], mode=BUILD, duration=0:00:01.522, duration_ms=1522, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:51:37], mode=BUILD, duration=0:00:01.346, duration_ms=1346, data={name=audioSynth, configuration=Debug, clean_build=false}
+timestamp=[2024-12-09 14:51:39], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=audioSynth_system, configuration=Debug, clean_build=false}

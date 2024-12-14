@@ -1,0 +1,456 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Dec  9 14:28:00 2024
+| Host         : ROHANLAPTOP running 64-bit major release  (build 9200)
+| Command      : report_methodology -file hardware_only_audio_methodology_drc_routed.rpt -pb hardware_only_audio_methodology_drc_routed.pb -rpx hardware_only_audio_methodology_drc_routed.rpx
+| Design       : hardware_only_audio
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 84
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation         | 40         |
+| TIMING-18 | Warning  | Missing input or output delay | 44         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -50.696 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/index_reg[1]/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -50.703 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/index_reg[0]/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -50.911 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/index_reg[2]/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -51.714 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/index_reg[4]/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -51.718 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[20]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -51.718 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[21]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -51.718 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[22]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -51.718 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[23]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -51.726 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[28]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -51.726 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[29]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -51.726 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[30]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -51.726 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[31]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -51.732 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/index_reg[3]/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -51.746 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[24]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -51.746 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[25]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -51.746 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[26]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -51.746 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[27]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -51.869 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[16]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -51.869 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[17]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -51.869 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[18]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -51.869 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[19]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -51.870 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[12]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -51.870 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[13]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -51.870 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[14]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -51.870 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[15]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -51.953 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[0]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -51.953 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[1]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -51.953 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[2]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -51.953 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[3]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -52.012 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[10]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -52.012 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[11]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -52.012 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[8]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -52.012 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[9]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -52.014 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[4]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -52.014 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[5]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -52.014 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[6]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -52.014 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/slow_counter_reg[7]/R (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -66.990 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/SPKL_reg/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -67.547 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/SPKL_reg_lopt_replica_2/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -67.639 ns between frequency_reg[2]_replica_4/C (clocked by clk_100) and pwm_sine_wave/SPKL_reg_lopt_replica/D (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on leButton relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on reset_rtl_0 relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[0] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[10] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[11] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[12] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[13] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[14] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[15] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[1] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[2] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[3] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[4] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[5] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[6] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[7] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[8] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on sw_i[9] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on SPKL relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on SPKR relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridA[0] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridA[1] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridA[2] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridA[3] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridB[0] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridB[1] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridB[2] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on hex_gridB[3] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[0] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[1] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[2] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[3] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[4] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[5] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[6] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on hex_segA[7] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[0] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[1] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#39 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[2] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#40 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[3] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#41 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[4] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#42 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[5] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#43 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[6] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#44 Warning
+Missing input or output delay  
+An output delay is missing on hex_segB[7] relative to clock(s) clk_100
+Related violations: <none>
+
+
