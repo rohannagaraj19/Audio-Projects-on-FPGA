@@ -33,5 +33,5 @@ This repository showcases two approaches for working with audio signals on FPGA 
 
 2. **Cloning the Repository**:  
    ```bash
-   git clone https://github.com/yourusername/yourrepo.git
-   cd yourrepo
+   git clone https://github.com/rohannagaraj19/Audio-Projects-on-FPGA.git
+   cd Audio-Projects-on-FPGA
